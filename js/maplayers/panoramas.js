@@ -1,0 +1,24 @@
+var panoramas = {
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "pano": 1, "name": "Sajac Memorial Park Boat Ramp", "lat": 46.651815, "lng": -92.2031, "url": "http:\/\/aqua.wisc.edu\/glct\/maps\/Panoramas\/douglas_1.html" }, "geometry": { "type": "Point", "coordinates": [ -92.2031, 46.651815 ] } },
+{ "type": "Feature", "properties": { "pano": 2, "name": "Pokegama Bay Boat Launch", "lat": 46.671352, "lng": -92.134522, "url": "http:\/\/aqua.wisc.edu\/glct\/maps\/Panoramas\/douglas_2.html" }, "geometry": { "type": "Point", "coordinates": [ -92.134522, 46.671352 ] } },
+{ "type": "Feature", "properties": { "pano": 3, "name": "Pokegama Bay Pullout", "lat": 46.681722, "lng": -92.149473, "url": "http:\/\/aqua.wisc.edu\/glct\/maps\/Panoramas\/douglas_3.html" }, "geometry": { "type": "Point", "coordinates": [ -92.149473, 46.681722 ] } },
+{ "type": "Feature", "properties": { "pano": 4, "name": "Billing's Drive Dirt Boat Launch", "lat": 46.708028, "lng": -92.145714, "url": "http:\/\/aqua.wisc.edu\/glct\/maps\/Panoramas\/douglas_4.html" }, "geometry": { "type": "Point", "coordinates": [ -92.145714, 46.708028 ] } },
+{ "type": "Feature", "properties": { "pano": 5, "name": "Ami Friendship Garden", "lat": 46.710913, "lng": -92.14142, "url": "http:\/\/aqua.wisc.edu\/glct\/maps\/Panoramas\/douglas_5.html" }, "geometry": { "type": "Point", "coordinates": [ -92.14142, 46.710913 ] } },
+{ "type": "Feature", "properties": { "pano": 6, "name": "Billing's Park Small Island Bridge", "lat": 46.7124, "lng": -92.142769, "url": "http:\/\/aqua.wisc.edu\/glct\/maps\/Panoramas\/douglas_6.html" }, "geometry": { "type": "Point", "coordinates": [ -92.142769, 46.7124 ] } },
+{ "type": "Feature", "properties": { "pano": 7, "name": "Billing's Park Top Peninsula", "lat": 46.713831, "lng": -92.145149, "url": "http:\/\/aqua.wisc.edu\/glct\/maps\/Panoramas\/douglas_7.html" }, "geometry": { "type": "Point", "coordinates": [ -92.145149, 46.713831 ] } },
+{ "type": "Feature", "properties": { "pano": 8, "name": "Billing's Park Boat Launch", "lat": 46.713214, "lng": -92.140928, "url": "http:\/\/aqua.wisc.edu\/glct\/maps\/Panoramas\/douglas_8.html" }, "geometry": { "type": "Point", "coordinates": [ -92.140928, 46.713214 ] } },
+{ "type": "Feature", "properties": { "pano": 9, "name": "Arrowhead Pier", "lat": 46.718333, "lng": -92.14419, "url": "http:\/\/aqua.wisc.edu\/glct\/maps\/Panoramas\/douglas_9.html" }, "geometry": { "type": "Point", "coordinates": [ -92.14419, 46.718333 ] } },
+{ "type": "Feature", "properties": { "pano": 10, "name": "Wisconsin Point", "lat": 46.70573775, "lng": -92.0120311, "url": "http:\/\/aqua.wisc.edu\/glct\/maps\/Panoramas\/douglas_10.html" }, "geometry": { "type": "Point", "coordinates": [ -92.0120311, 46.70573775 ] } },
+{ "type": "Feature", "properties": { "pano": 11, "name": "Wisconsin Point", "lat": 46.69175036, "lng": -91.98559483, "url": "http:\/\/aqua.wisc.edu\/glct\/maps\/Panoramas\/douglas_11.html" }, "geometry": { "type": "Point", "coordinates": [ -91.98559483, 46.69175036 ] } },
+{ "type": "Feature", "properties": { "pano": 12, "name": "Wisconsin Point", "lat": 46.68585914, "lng": -91.97267043, "url": "http:\/\/aqua.wisc.edu\/glct\/maps\/Panoramas\/douglas_12.html" }, "geometry": { "type": "Point", "coordinates": [ -91.97267043, 46.68585914 ] } },
+{ "type": "Feature", "properties": { "pano": 13, "name": "Lake Shore Road", "lat": 46.68110074, "lng": -91.9559617, "url": "http:\/\/aqua.wisc.edu\/glct\/maps\/Panoramas\/douglas_13.html" }, "geometry": { "type": "Point", "coordinates": [ -91.9559617, 46.68110074 ] } },
+{ "type": "Feature", "properties": { "pano": 14, "name": "Moccasin Mike Road", "lat": 46.67976541, "lng": -91.94342916, "url": "http:\/\/aqua.wisc.edu\/glct\/maps\/Panoramas\/douglas_14.html" }, "geometry": { "type": "Point", "coordinates": [ -91.94342916, 46.67976541 ] } },
+{ "type": "Feature", "properties": { "pano": 15, "name": "Grassy Point", "lat": 46.726132, "lng": -92.154709, "url": "http:\/\/aqua.wisc.edu\/glct\/maps\/Panoramas\/stlouis_1.html" }, "geometry": { "type": "Point", "coordinates": [ -92.154709, 46.726132 ] } },
+{ "type": "Feature", "properties": { "pano": 16, "name": "Munger Landing", "lat": 46.701169, "lng": -92.206987, "url": "http:\/\/aqua.wisc.edu\/glct\/maps\/Panoramas\/stlouis_2.html" }, "geometry": { "type": "Point", "coordinates": [ -92.206987, 46.701169 ] } },
+{ "type": "Feature", "properties": { "pano": 17, "name": "Boy Scout Landing", "lat": 46.65357, "lng": -92.2264, "url": "http:\/\/aqua.wisc.edu\/glct\/maps\/Panoramas\/stlouis_3.html" }, "geometry": { "type": "Point", "coordinates": [ -92.2264, 46.65357 ] } }
+]
+}

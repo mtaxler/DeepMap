@@ -1,0 +1,293 @@
+* {margin:0; padding:0;}
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,600,700);
+body {
+      font-family: Helvetica, Arial, sans-serif;
+    }
+    p {
+    	line-height: 1.6em;
+		margin-bottom: 10px;
+		font-size: 12px;
+      	font-size: 78%;
+      
+    }
+    a:link, a:visited {
+      font-size: 12px;
+      line-height: 1.6em;
+      color: #7bba45;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: #29A1E1;
+    }
+	#divHeader h1 {
+	text-indent: -9999px;
+	background-image: url(http://stlouisriverestuary.org/images/layout/stlre_deepmap.png);
+	background-repeat: no-repeat;
+	background-position: 20px 0px;
+}
+    h2 {
+    text-align:center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	letter-spacing:-1px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+    }
+
+.image {
+   border:2px solid #111111;
+}
+.image:hover {
+	border: 2.2px solid #0078A8;
+}
+#divHeader {
+	position: absolute;
+	width:100% !important;
+	height:30px !important;
+	z-index: 10000 !important;
+	background-color: #2B5069 !important;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	opacity: 0.95;
+	box-shadow: -3px 3px 7px #333;
+}
+
+#divHeader a {
+	height: 100px;
+}
+
+
+
+
+#divSectionNav {
+    background-color: #224054;
+    height: 36px;
+	position: absolute;
+    width: 100%;
+    z-index: 10000;
+	top:36px;
+}
+/*#divHeader .navHome {
+	top:6px;}
+		
+		#divHeader a:link, #divHeader a:visited {
+		font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+		font-size: 13px;
+		color: #FFF;
+		text-decoration: underline;
+		}
+		#divHeader a:hover {
+		color: #FFF;
+		text-decoration: none;
+		}*/
+
+	
+
+
+
+	#divHeader .navHome {
+	position: absolute;
+	left: 600px;
+	top: 6px;
+	line-height:30px;		
+		}
+
+	#divHeader a:link, #divHeader a:visited {
+		font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+		font-size: 13px;
+		color: #FFF;
+		text-decoration: underline;
+		}
+		#divHeader a:hover {
+		color: #FFF;
+		text-decoration: none;
+		}
+#logo {
+	height: 112px;
+	width: 250px;
+}
+
+#legend {
+	opacity: 0.85;
+	filter: alpha(opacity=85);
+	position: absolute;
+	left: 10px;
+	bottom: 40px;
+	height: 493px;
+	width:227px;
+	z-index: 10000;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	box-shadow: 0 0 7px #999;
+	background: #2C2C2C;
+	font: 16px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+	padding-left: 10px;
+	padding-right: 5px;
+	line-height: 20px;
+	color: white;
+	
+}
+
+#legend:hover {
+	opacity: 0.95;
+	filter: alpha(opacity=95);
+
+}
+
+#legend img {
+	margin-right: 3px;
+	height: 19px;
+	width: 16px;
+}
+#legend h3 {
+	color: white;
+	font: 16px "Helvetica Neue", Arial, Helvetica, sans-serif;
+	text-align: left;
+	padding-left: 10px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+
+#legend hr {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	height: 1px;
+	border: 0;
+}
+
+
+
+#divHeader a:hover {
+	color: #8AB852;
+}
+#mymap {
+	position: absolute; 
+	top: 0px;
+	right: 316px;
+	left:0;
+	height:100%;
+	width:100%;
+}
+#sidebar {
+	opacity: 0.95;
+	z-index: 500;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 275px;
+	background-color: #386062;
+	color: #fff;
+/*	border-left:2px solid #000;*/
+	box-shadow: -5px 5px 10px #333;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-top: 86px;
+}
+
+#sidebarTitle {
+	line-height: 1.6em;
+	margin-bottom: 10px;
+	font-size: 12px;
+    font-size: 160%;
+    text-align: center;
+}
+#mediaSlot {
+	
+	width: 260px;
+	
+	padding-top: 10px;
+	padding-left: 7px;
+	margin: 5px;
+	border:2px;
+	border-color:black;
+	
+}
+#monitorSymbol {
+	height: 20px;
+	width: 300px;
+	line-height: 20px;
+	margin-top:5px;
+	
+}
+#bathpopups {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+}
+
+#footer {
+	position: absolute;
+	width:100%;
+	height:25px;
+	z-index: 10;
+	background-color: #2C2C2C;
+	bottom: 0px;
+	opacity: 0.9;
+	text-align: center;
+	padding-top: 8px;
+	color: white;
+	font-size: 12px;
+
+}
+
+label {
+	padding-left: 4px;
+
+}
+
+.input {     
+	border: 1px solid #006; 
+	padding: 1px ;
+}
+.input:hover {
+	background: #fff;
+}
+
+
+
+#divSectionNav ul {
+	list-style: none;
+	float: left;
+	margin-left:25px;
+	}
+	#divSectionNav li {
+		margin:0;
+		float: left;
+		display: block;
+		height: 36px;
+		text-align: center;
+		text-transform: lowercase;
+		color: #FFF;
+		font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+		font-size: 13px;
+		line-height: 36px;
+		font-weight: normal;
+		font-variant: normal;
+		letter-spacing: 1px;
+		}
+	#divSectionNav a {
+		display: block;
+		line-height: 36px;
+		margin-right:20px;	
+		}
+		#divSectionNav  a:link, #divSectionNav  a:visited {
+		color: #94A6B3;
+		text-decoration: none;
+		}
+		#divSectionNav  a:hover {
+		color: #FFF;
+		text-decoration: none;
+		}
+		#divSectionNav  a.current {
+		color: #FFF;
+		text-decoration: none;
+		font-weight:600;
+		}
+
+
+
+
